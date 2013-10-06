@@ -1,0 +1,5 @@
+{{winfunc}} = nomainwin
+{{filename}} = tmp.bas
+{{wintype}} = input
+{{handler}} = mainwin
+{{quit}} = quit

@@ -1,0 +1,9 @@
+{{winfunc}}
+
+open "{{filename}}" for {{wintype}} as #{{handler}}
+    #{{handler}} "trapclose [{{quit}}]"
+    wait
+
+[{{quit}}]
+    close #{{handler}}
+    end
